@@ -1,0 +1,47 @@
+{
+  "layer": 2,
+  "per_dim_r2": {
+    "dx": 0.18369650840759277,
+    "dy": 0.2703930735588074,
+    "dz": 0.3643403649330139,
+    "drx": 0.09156852960586548,
+    "dry": 0.05907618999481201,
+    "drz": 0.1645888090133667,
+    "gripper": 0.03625774383544922
+  },
+  "overall_r2": 0.060430943965911865,
+  "per_task_r2": {
+    "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it": 0.05000680685043335,
+    "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it": 0.05993211269378662,
+    "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it": 0.03542047739028931,
+    "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove": 0.04133492708206177,
+    "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket": 0.06349992752075195,
+    "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket": 0.06787776947021484,
+    "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket": 0.09649741649627686,
+    "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate": 0.06398457288742065,
+    "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate": 0.04603981971740723,
+    "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy": 0.08118635416030884
+  },
+  "per_task_mean_r2": 0.06057801842689514,
+  "gripper_accuracy": 0.45470179290157337,
+  "raw_mse": 0.0075111789628863335,
+  "val_loss": 0.8203188180923462,
+  "epochs_trained": 20,
+  "gripper_delta_accuracy": 0.987413099158434,
+  "pca_dim": 1024,
+  "pca_info": {
+    "cumulative_variance_ratio": 0.9994773487978588,
+    "top_10_components": [
+      0.2813430594411223,
+      0.20882964329226447,
+      0.13190404255210988,
+      0.07084087735767529,
+      0.042541739070943344,
+      0.0300900135898344,
+      0.02749593533475558,
+      0.021795091413664733,
+      0.017192151912997947,
+      0.012961513720310363
+    ]
+  }
+}

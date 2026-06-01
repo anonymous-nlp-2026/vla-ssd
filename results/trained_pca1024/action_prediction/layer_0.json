@@ -1,0 +1,46 @@
+{
+  "layer": 0,
+  "per_dim_r2": {
+    "dx": -3.063678741455078e-05,
+    "dy": -5.960464477539062e-07,
+    "dz": -3.0159950256347656e-05,
+    "drx": -2.3484230041503906e-05,
+    "dry": -0.00020384788513183594,
+    "drz": -8.58306884765625e-05,
+    "gripper": -9.226799011230469e-05
+  },
+  "overall_r2": 0.013396918773651123,
+  "per_task_r2": {
+    "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it": 0.02830064296722412,
+    "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it": 0.04905444383621216,
+    "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it": 0.06348627805709839,
+    "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove": 0.00839853286743164,
+    "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket": 0.011371016502380371,
+    "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket": 0.0060759782791137695,
+    "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket": 0.0018287301063537598,
+    "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate": 0.0015410184860229492,
+    "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate": -0.01621246337890625,
+    "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy": -0.07730650901794434
+  },
+  "per_task_mean_r2": 0.007653766870498657,
+  "gripper_accuracy": 0.5563117453347969,
+  "raw_mse": 0.19078464806079865,
+  "val_loss": 1.0339844226837158,
+  "epochs_trained": 6,
+  "pca_dim": 1024,
+  "pca_info": {
+    "cumulative_variance_ratio": 0.9993744992100213,
+    "top_10_components": [
+      0.999374499206243,
+      6.591650375090977e-14,
+      5.158092633452731e-14,
+      3.065820903952952e-14,
+      9.62970575423732e-15,
+      5.435241363143248e-15,
+      4.235097593132976e-15,
+      3.55049145357442e-15,
+      3.55049145357442e-15,
+      3.55049145357442e-15
+    ]
+  }
+}

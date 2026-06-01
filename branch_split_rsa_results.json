@@ -1,0 +1,87 @@
+{
+  "method": "B_inter_demo_pairwise",
+  "description": "Within-task pairwise RSA: cosine rep distance, euclidean action distance, 20-frame temporal subsampling, Spearman rank correlation, mean across 10 tasks",
+  "n_demos_per_task": 50,
+  "aggregation": "image_mean (patch-level spatial mean)",
+  "dim_layout": "DINOv2(0:1024) | SigLIP(1024:2176)",
+  "results": {
+    "dinov2_branch_1024d": {
+      "rsa": 0.619,
+      "ci_low": 0.5216,
+      "ci_high": 0.7051,
+      "std": 0.1576
+    },
+    "siglip_branch_1152d": {
+      "rsa": 0.6208,
+      "ci_low": 0.5198,
+      "ci_high": 0.7008,
+      "std": 0.1428
+    },
+    "fused_pre_projector_2176d": {
+      "rsa": 0.6336,
+      "ci_low": 0.5374,
+      "ci_high": 0.7217,
+      "std": 0.1509
+    },
+    "projector_4096d": {
+      "rsa": 0.6153,
+      "ci_low": 0.5257,
+      "ci_high": 0.6954
+    }
+  },
+  "per_task": {
+    "dinov2_branch_1024d": {
+      "open_the_middle_drawer_of_the_cabinet": 0.6939,
+      "open_the_top_drawer_and_put_the_bowl_inside": 0.8158,
+      "push_the_plate_to_the_front_of_the_stove": 0.7995,
+      "put_the_bowl_on_the_plate": 0.5294,
+      "put_the_bowl_on_the_stove": 0.437,
+      "put_the_bowl_on_top_of_the_cabinet": 0.6503,
+      "put_the_cream_cheese_in_the_bowl": 0.7146,
+      "put_the_wine_bottle_on_the_rack": 0.6576,
+      "put_the_wine_bottle_on_top_of_the_cabinet": 0.6177,
+      "turn_on_the_stove": 0.2745
+    },
+    "siglip_branch_1152d": {
+      "open_the_middle_drawer_of_the_cabinet": 0.686,
+      "open_the_top_drawer_and_put_the_bowl_inside": 0.767,
+      "push_the_plate_to_the_front_of_the_stove": 0.8028,
+      "put_the_bowl_on_the_plate": 0.5853,
+      "put_the_bowl_on_the_stove": 0.4573,
+      "put_the_bowl_on_top_of_the_cabinet": 0.598,
+      "put_the_cream_cheese_in_the_bowl": 0.7363,
+      "put_the_wine_bottle_on_the_rack": 0.6431,
+      "put_the_wine_bottle_on_top_of_the_cabinet": 0.6314,
+      "turn_on_the_stove": 0.3005
+    },
+    "fused_pre_projector_2176d": {
+      "open_the_middle_drawer_of_the_cabinet": 0.6987,
+      "open_the_top_drawer_and_put_the_bowl_inside": 0.8179,
+      "push_the_plate_to_the_front_of_the_stove": 0.811,
+      "put_the_bowl_on_the_plate": 0.5555,
+      "put_the_bowl_on_the_stove": 0.4569,
+      "put_the_bowl_on_top_of_the_cabinet": 0.6574,
+      "put_the_cream_cheese_in_the_bowl": 0.7289,
+      "put_the_wine_bottle_on_the_rack": 0.6678,
+      "put_the_wine_bottle_on_top_of_the_cabinet": 0.6403,
+      "turn_on_the_stove": 0.3021
+    },
+    "projector_4096d": {
+      "open_the_middle_drawer_of_the_cabinet": 0.7087,
+      "open_the_top_drawer_and_put_the_bowl_inside": 0.8135,
+      "push_the_plate_to_the_front_of_the_stove": 0.7853,
+      "put_the_bowl_on_the_plate": 0.5322,
+      "put_the_bowl_on_the_stove": 0.4051,
+      "put_the_bowl_on_top_of_the_cabinet": 0.6192,
+      "put_the_cream_cheese_in_the_bowl": 0.7006,
+      "put_the_wine_bottle_on_the_rack": 0.6531,
+      "put_the_wine_bottle_on_top_of_the_cabinet": 0.5906,
+      "turn_on_the_stove": 0.3453
+    }
+  },
+  "reference_baselines": {
+    "standalone_dino_patch_mean": 0.631,
+    "standalone_clip_cls": 0.557,
+    "vla_trained_image_mean": 0.501
+  }
+}

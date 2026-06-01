@@ -1,0 +1,46 @@
+{
+  "layer": 2,
+  "per_dim_r2": {
+    "dx": 0.5614763498306274,
+    "dy": 0.7512059211730957,
+    "dz": 0.567711353302002,
+    "drx": 0.4039473533630371,
+    "dry": 0.20400261878967285,
+    "drz": 0.6528576612472534,
+    "gripper": 0.6670783162117004
+  },
+  "overall_r2": 0.6621804237365723,
+  "per_task_r2": {
+    "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it": 0.6448177099227905,
+    "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it": 0.6809420585632324,
+    "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it": 0.6881527900695801,
+    "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove": 0.6414792537689209,
+    "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket": 0.6416842341423035,
+    "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket": 0.5942438840866089,
+    "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket": 0.653678297996521,
+    "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate": 0.6786994934082031,
+    "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate": 0.610436201095581,
+    "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy": 0.853020191192627
+  },
+  "per_task_mean_r2": 0.6687154114246369,
+  "gripper_accuracy": 0.8955360409806074,
+  "raw_mse": 0.06532595306634903,
+  "val_loss": 0.47313013672828674,
+  "epochs_trained": 21,
+  "pca_dim": 1024,
+  "pca_info": {
+    "cumulative_variance_ratio": 0.9994773487978588,
+    "top_10_components": [
+      0.2813430594411223,
+      0.20882964329226447,
+      0.13190404255210988,
+      0.07084087735767529,
+      0.042541739070943344,
+      0.0300900135898344,
+      0.02749593533475558,
+      0.021795091413664733,
+      0.017192151912997947,
+      0.012961513720310363
+    ]
+  }
+}

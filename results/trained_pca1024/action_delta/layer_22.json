@@ -1,0 +1,47 @@
+{
+  "layer": 22,
+  "per_dim_r2": {
+    "dx": 0.1778801679611206,
+    "dy": 0.2717071771621704,
+    "dz": 0.36824125051498413,
+    "drx": 0.08071357011795044,
+    "dry": 0.05780434608459473,
+    "drz": 0.16967004537582397,
+    "gripper": 0.03286325931549072
+  },
+  "overall_r2": 0.05739706754684448,
+  "per_task_r2": {
+    "KITCHEN_SCENE3_turn_on_the_stove_and_put_the_moka_pot_on_it": 0.05120503902435303,
+    "KITCHEN_SCENE4_put_the_black_bowl_in_the_bottom_drawer_of_the_cabinet_and_close_it": 0.06275975704193115,
+    "KITCHEN_SCENE6_put_the_yellow_and_white_mug_in_the_microwave_and_close_it": 0.032728374004364014,
+    "KITCHEN_SCENE8_put_both_moka_pots_on_the_stove": 0.033290326595306396,
+    "LIVING_ROOM_SCENE1_put_both_the_alphabet_soup_and_the_cream_cheese_box_in_the_basket": 0.062339186668395996,
+    "LIVING_ROOM_SCENE2_put_both_the_alphabet_soup_and_the_tomato_sauce_in_the_basket": 0.06470006704330444,
+    "LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket": 0.09280085563659668,
+    "LIVING_ROOM_SCENE5_put_the_white_mug_on_the_left_plate_and_put_the_yellow_and_white_mug_on_the_right_plate": 0.056334495544433594,
+    "LIVING_ROOM_SCENE6_put_the_white_mug_on_the_plate_and_put_the_chocolate_pudding_to_the_right_of_the_plate": 0.046051979064941406,
+    "STUDY_SCENE1_pick_up_the_book_and_place_it_in_the_back_compartment_of_the_caddy": 0.07109135389328003
+  },
+  "per_task_mean_r2": 0.05733014345169067,
+  "gripper_accuracy": 0.5994511525795829,
+  "raw_mse": 0.007535432931035757,
+  "val_loss": 0.8218361735343933,
+  "epochs_trained": 6,
+  "gripper_delta_accuracy": 0.987413099158434,
+  "pca_dim": 1024,
+  "pca_info": {
+    "cumulative_variance_ratio": 0.9371032626022007,
+    "top_10_components": [
+      0.11935988787754813,
+      0.07496019351604503,
+      0.06403219182226252,
+      0.040671110766976534,
+      0.038647356269222485,
+      0.033618072788645086,
+      0.029859409428923997,
+      0.026231061053561534,
+      0.023303649886697694,
+      0.020125691827336752
+    ]
+  }
+}
