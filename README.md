@@ -1,10 +1,10 @@
 # Instruction Routing in Fine-Tuned Vision-Language-Action Models: A Cross-Architecture Analysis
 
-This repository contains the analysis code for probing the internal representations of Vision-Language-Action (VLA) models, accompanying the paper submission to CoRL 2026.
+This repository contains the analysis code for studying instruction routing in fine-tuned Vision-Language-Action (VLA) models across different architectures, accompanying the paper submission to CoRL 2026.
 
 ## Overview
 
-We investigate what VLA models learn internally by extracting hidden-state representations across all transformer layers and applying a suite of probing and similarity analyses. The codebase supports:
+We investigate how language instructions are routed through fine-tuned VLA models by extracting hidden-state representations across all transformer layers and applying a suite of probing and similarity analyses. The codebase supports:
 
 - **Feature extraction** from trained and untrained VLA models (OpenVLA, Phi-3V-based TracVLA) and vision encoders (DINOv2, SigLIP, CLIP)
 - **Linear/MLP probing** for temporal distance, action prediction, subtask classification, and goal classification
