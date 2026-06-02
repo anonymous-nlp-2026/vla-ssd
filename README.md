@@ -1,4 +1,4 @@
-# Supplementary Code: Probing the Internal Representations of Vision-Language-Action Models
+# Instruction Routing in Fine-Tuned Vision-Language-Action Models: A Cross-Architecture Analysis
 
 This repository contains the analysis code for probing the internal representations of Vision-Language-Action (VLA) models, accompanying the paper submission to CoRL 2026.
 
